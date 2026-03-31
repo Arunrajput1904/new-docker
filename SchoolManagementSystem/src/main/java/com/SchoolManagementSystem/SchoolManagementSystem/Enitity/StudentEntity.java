@@ -18,10 +18,8 @@ public class StudentEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @ToString.Include
     Long id;
 
-    @Column(nullable = false, length = 40)
     @ToString.Include
     String name;
 

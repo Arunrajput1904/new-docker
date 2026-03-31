@@ -41,7 +41,7 @@ public class StudController {
     }
 
     @PostMapping("/post")
-    public  ResponseEntity<Student> getbySave(@RequestBody @Valid Student student)
+    public  ResponseEntity<Student> getbySave(@RequestBody  Student student)
     {
         return ResponseEntity.ok(studService.savedetails(student));
     }

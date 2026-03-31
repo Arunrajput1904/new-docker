@@ -14,10 +14,10 @@ import java.util.List;
 
 public class Student {
 
-    @NotNull
+
     Long id;
 
-    @NotEmpty
+
     String name;
 
     List<Proffessor> proffessorList;
